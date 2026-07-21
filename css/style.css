@@ -9,7 +9,12 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #f0f2f5;
     margin: 0;
-    padding: 0 0 20px 0px; /* Ajustado para o header encostar no topo */
+    padding: 0;
+    
+    /* Faz a página ocupar no mínimo 100% da altura da tela */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 /* CABEÇALHO COMPACTO */
@@ -55,14 +60,15 @@ body {
   .logo span strong {
     color: #3b82f6;
   }
-.container {
+  .container {
     max-width: 800px;
+    width: 100%; /* Mantém a largura correta */
     margin: auto;
     background: white;
     padding: 20px;
     border-radius: 8px;
+    box-sizing: border-box;
 }
-
 h1, h2 {
     text-align: center;
     color: #333;
@@ -126,4 +132,18 @@ table td {
 table th {
     background-color: rgb(127, 60, 190);
     color: white;
+}
+
+
+
+/* Estilo do Rodapé alinhado com o cabeçalho */
+/* ✅ MANTENHA APENAS ISSO PARA O RODAPÉ: */
+footer {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 14px;
+    margin-top: 40px; /* Cria o espaçamento entre a caixa e o rodapé */
+    width: 100%;
 }
