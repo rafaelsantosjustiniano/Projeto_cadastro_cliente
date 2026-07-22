@@ -1,13 +1,22 @@
 
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(130, 84, 173);
+body{
     margin: 0;
-    padding: 0;
     min-height: 100vh;
+
     display: flex;
     flex-direction: column;
+
+    background: linear-gradient(
+        135deg,
+        #721ca3,
+        #450fb9,
+        #8b5cf6,
+        #b77af5
+    );
 }
+
+  
+
 
 
 .header {
@@ -102,7 +111,7 @@ button {
 
 .editar {
     background-color: rgb(130, 84, 173);
-    color: black;
+    color: rgb(255, 255, 255);
     margin-right: 5px;
 }
 
@@ -128,15 +137,13 @@ table th {
     color: white;
 }
 
-
-
-
 footer {
     background-color: #000000;
     color: #ffffff;
     text-align: center;
-    padding: 20px 0;
+    padding: 20px ;
     font-size: 14px;
     margin-top: 40px; 
     width: 100%;
 }
+
