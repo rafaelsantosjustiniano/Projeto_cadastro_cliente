@@ -1,4 +1,4 @@
-/* BODY (Limpos os seletores duplicados) */
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #f0f2f5;
@@ -9,7 +9,7 @@ body {
     flex-direction: column;
 }
 
-/* CABEÇALHO CORRIGIDO */
+
 .header {
     background-color: #000000;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
@@ -20,10 +20,10 @@ body {
 
 .header-container {
     width: 100%;
-    padding: 0 20px;          /* Espaçamento interno para a logo não encostar no vidro da tela */
+    padding: 0 20px;         
     display: flex;
     align-items: center;
-    justify-content: flex-start; /* Alinha o conteúdo totalmente à esquerda */
+    justify-content: flex-start; 
     box-sizing: border-box;
 }
 
@@ -56,7 +56,7 @@ body {
   }
   .container {
     max-width: 800px;
-    width: 100%; /* Mantém a largura correta */
+    width: 100%; 
     margin: auto;
     background: white;
     padding: 20px;
@@ -130,14 +130,13 @@ table th {
 
 
 
-/* Estilo do Rodapé alinhado com o cabeçalho */
-/* ✅ MANTENHA APENAS ISSO PARA O RODAPÉ: */
+
 footer {
     background-color: #000000;
     color: #ffffff;
     text-align: center;
     padding: 20px 0;
     font-size: 14px;
-    margin-top: 40px; /* Cria o espaçamento entre a caixa e o rodapé */
+    margin-top: 40px; 
     width: 100%;
 }
